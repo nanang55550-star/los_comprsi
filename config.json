@@ -1,0 +1,32 @@
+{
+    "version": "2.1.0",
+    "central_dir_override": "",
+    "encode_settings": {
+        "encoder": "libx264",
+        "preset": "slow",
+        "profile": "high",
+        "level": "4.2",
+        "bitrate": "30M",
+        "maxrate": "35M",
+        "bufsize": "70M",
+        "gop": 60,
+        "audio_bitrate": "256k",
+        "force_fps": 60,
+        "sharpen": false,
+        "sharpen_strength": "0.7",
+        "normalize_audio": false,
+        "strip_metadata": true
+    },
+    "stab_settings": {
+        "grid": 16,
+        "analysis_max_dim": 480,
+        "smoothing": "sedang",
+        "max_crop_ratio": 0.15,
+        "preset": "fast",
+        "bitrate": "16M",
+        "maxrate": "20M",
+        "bufsize": "40M",
+        "audio_bitrate": "192k"
+    },
+    "custom_presets": {}
+}
